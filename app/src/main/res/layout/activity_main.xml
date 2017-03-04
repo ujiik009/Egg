@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="team.bsru.apirat.egg.MainActivity"
+    android:background="@drawable/bgegg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#80ffffff">
+
+        <TextView
+            android:text="App จับเวลาไข่ต้ม นะจ๊ะ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="normal|bold"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/background_dark" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:srcCompat="@drawable/egg3min"
+                    android:id="@+id/min_3"
+                    android:background="#01ffffff"
+                    android:layout_marginRight="20dp" />
+
+                <TextView
+                    android:text="3 นาที"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView"
+                    android:textSize="24sp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="normal|bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:srcCompat="@drawable/egg4min"
+                    android:id="@+id/min_4"
+                    android:background="#01ffffff" />
+
+                <TextView
+                    android:text="4 นาที"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2"
+                    android:textSize="24sp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="normal|bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_height="120dp"
+                    app:srcCompat="@drawable/egg6min"
+                    android:id="@+id/min_6"
+                    android:layout_width="match_parent"
+                    android:background="#01ffffff"
+                    android:layout_marginRight="20dp" />
+
+                <TextView
+                    android:text="6 นาที"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView3"
+                    android:textSize="24sp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="normal|bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:srcCompat="@drawable/egg10min"
+                    android:id="@+id/min_10"
+                    android:background="#01ffffff" />
+
+                <TextView
+                    android:text="10 นาที"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView4"
+                    android:textSize="24sp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="normal|bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/egg15min"
+                android:id="@+id/min_15"
+                android:background="#01ffffff"
+                android:layout_marginTop="20dp"
+                android:layout_width="150dp" />
+
+            <TextView
+                android:text="15  นาที"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:textSize="24sp"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="normal|bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
